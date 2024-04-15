@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Player | Country Selection page</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <!-- Main Content -->
+    <main>
+      <!-- Login Section -->
+      <section class="py-10 px-5 md:p-10 xl:py-10 xl:pl-10 overflow-hidden">
+        <div class="custom-container">
+          <div
+            class="max-w-[600px] xl:max-w-[1315px] w-full flex mx-auto xl:ml-0 xl:mr-0 flex-col xl:flex-row xl:items-center gap-[50px] xl:gap-[120px] relative"
+          >
+            <div class="hero-gradient-overlay"></div>
+
+            <!-- Hero Image -->
+            <div class="flex-1 relative">
+              <img src="images/hero.png" alt="Hero" />
+
+              <div
+                class="absolute top-[80px] left-[50px] md:top-[145px] md:left-[90px] z-10 w-full max-w-[426px]"
+              >
+                <img
+                  class="w-[100px] md:w-[150px] h-auto object-contain"
+                  src="images/hero-logo.svg"
+                  alt="hero logo"
+                />
+
+                <h1 class="mt-4 md:mt-8 hero-gradient-text">
+                  Find Your <span class="gradient-text">Player 02</span>
+                </h1>
+              </div>
+            </div>
+            <!-- Hero Image -->
+
+            <!-- Hero Content -->
+            <div class="w-full xl:w-[525px] mx-auto xl:ml-0 xl:mr-0">
+              <!-- Back Button -->
+              <button
+                class="w-11 h-11 rounded-full bg-custom-black-mute flex items-center justify-center border border-custom-purple-500/50 mb-6 transition-all duration-150 hover:bg-custom-black-mute/50"
+              >
+                <img
+                  class="w-[18px] object-contain"
+                  src="images/back-arrow.svg"
+                  alt="back"
+                />
+              </button>
+              <!-- Back Button -->
+
+              <div class="">
+                <div class="">
+                  <h2 class="uppercase">
+                    Select your
+                    <span class="gradient-text">country & language</span>
+                  </h2>
+
+                  <p
+                    class="desc--16 font-normal max-w-[260px] w-full mt-[10px]"
+                  >
+                    This will help us match you with other members in your
+                    region!
+                  </p>
+                </div>
+
+                <div class="w-full md:w-[416px]">
+                  <form action="" class="mt-5">
+                    <div class="flex flex-col gap-8">
+                      <!-- Single Input / Select -->
+                      <label>
+                        <span class="label-style">Country</span>
+
+                        <div class="relative">
+                          <select class="input-style input-style--select">
+                            <option>United States</option>
+                            <option>United Kingdom</option>
+                            <option>Canada</option>
+                            <option>Australia</option>
+                            <option>Germany</option>
+                          </select>
+
+                          <div
+                            class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
+                          >
+                            <img
+                              class="object-contain"
+                              src="images/select-arrow.svg"
+                              alt="arrow"
+                            />
+                          </div>
+                        </div>
+                      </label>
+                      <!-- Single Input / Select -->
+                    </div>
+
+                    <div class="mt-7">
+                      <h3 class="text-[32px] leading-snug">Languages</h3>
+                      <p class="mt-2">You can select up to 3:</p>
+                    </div>
+
+                    <div class="flex flex-col gap-8 mt-7">
+                      <!-- Single Input / Select -->
+                      <label>
+                        <span class="label-style">Language 01</span>
+
+                        <div class="relative">
+                          <select class="input-style input-style--select">
+                            <option>English</option>
+                            <option>Spanish</option>
+                            <option>French</option>
+                            <option>Mandarin</option>
+                            <option>Arabic</option>
+                          </select>
+
+                          <div
+                            class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
+                          >
+                            <img
+                              class="object-contain"
+                              src="images/select-arrow.svg"
+                              alt="arrow"
+                            />
+                          </div>
+
+                          <!-- Cross Icon -->
+                          <button
+                            type="button"
+                            class="w-9 h-9 flex items-center justify-center absolute top-1/2 -right-[52px] -translate-y-1/2 border border-custom-white/20 transition-all duration-150 hover:bg-custom-black-mute rounded-full"
+                          >
+                            <img
+                              class="w-[18px] object-contain"
+                              src="images/cross.svg"
+                              alt="cross"
+                            />
+                          </button>
+                          <!-- Cross Icon -->
+                        </div>
+                      </label>
+                      <!-- Single Input / Select -->
+                    </div>
+
+                    <button
+                      type="button"
+                      class="input-style mt-5 text-left flex items-center gap-3"
+                    >
+                      <img
+                        class="w-4 object-contain"
+                        src="images/button-plus.svg"
+                        alt="plus"
+                      />
+                      Add Language
+                    </button>
+
+                    <button
+                      type="submit"
+                      class="custom-btn custom-btn--shadow mt-[60px]"
+                    >
+                      Next
+                      <img
+                        class="w-[10px] h-auto"
+                        src="images/button-arrow-right.svg"
+                        alt="arrow"
+                      />
+                    </button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="w-full max-w-[416px] mt-10">
+                <ul class="flex items-center justify-center gap-[6px]">
+                  <li>
+                    <button class="form-step"></button>
+                  </li>
+
+                  <li>
+                    <button class="form-step"></button>
+                  </li>
+
+                  <li>
+                    <button class="form-step"></button>
+                  </li>
+
+                  <li>
+                    <button class="form-step form-step--active"></button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Hero Content -->
+          </div>
+        </div>
+      </section>
+      <!-- Login Section -->
+    </main>
+    <!-- Main Content -->
+  </body>
+
+  <!-- Custom JS File -->
+  <script src="js/main.js"></script>
+</html>
