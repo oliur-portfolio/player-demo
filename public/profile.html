@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Player | Profile page</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <!-- Main Content -->
+    <main>
+      <!-- Page Header Section -->
+      <section class="py-10 md:py-[60px] md:pb-20">
+        <div class="max-w-[1200px] w-full mx-auto px-5 md:px-12 xl:px-0">
+          <!-- Page Header -->
+          <div class="">
+            <img
+              class="w-[100px] md:w-[136px] h-auto object-contain"
+              src="images/hero-logo.svg"
+              alt="hero logo"
+            />
+
+            <div class="flex flex-col lg:flex-row gap-8 items-start mt-10">
+              <div class="flex-1">
+                <div class="flex items-center">
+                  <h1
+                    class="text-3xl md:text-[50px] leading-snug md:leading-none"
+                  >
+                    Your Profile Is
+                    <span class="gradient-text--small">Almost Ready</span>
+                  </h1>
+                  <img
+                    class="w-[60px] h-[60px] object-contain"
+                    src="images/heart-gradient.svg"
+                    alt="text heading logo"
+                  />
+                </div>
+
+                <p
+                  class="text-xl leading-[30px] text-custom-purple-200 mt-5 max-w-[760px]"
+                >
+                  You can personalize your profile by adding profile pictures, a
+                  cover picture, and a voice intro! You can also come back to
+                  this in your settings later.
+                </p>
+              </div>
+
+              <button class="custom-btn-outline">Skip</button>
+            </div>
+          </div>
+          <!-- Page Header -->
+        </div>
+      </section>
+      <!-- Page Header Section -->
+
+      <!-- Profle Area -->
+      <section class="pb-[60px]">
+        <!-- Banner -->
+        <div class="relative">
+          <div
+            class="profile__banner relative w-full aspect-[3/1.5] md:aspect-[4/1.5] xl:aspect-[5/1.24]"
+          >
+            <img src="images/profile-banner.png" alt="profile banner" />
+          </div>
+
+          <button
+            class="absolute top-5 md:top-10 xl:top-[59px] right-5 md:right-12 xl:right-[120px] w-10 md:w-16 object-contain"
+          >
+            <img src="images/banner-edit-icon.png" alt="edit" />
+          </button>
+        </div>
+        <!-- Banner -->
+
+        <!-- Profile -->
+        <div class="-mt-16 md:-mt-[155px] z-50 relative">
+          <div class="max-w-[1260px] w-full mx-auto px-5 md:px-12 xl:px-0">
+            <div class="flex flex-col xl:flex-row items-start xl:gap-7">
+              <div
+                class="drop__shadow w-[100px] md:w-[240px] aspect-auto relative"
+              >
+                <img
+                  src="images/profile-avatar-bg.png"
+                  alt="avatar background"
+                />
+
+                <img
+                  class="w-[60px] md:w-[160px] h-auto object-contain absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+                  src="images/avatar.png"
+                  alt="avatar"
+                />
+
+                <button
+                  class="absolute bottom-0 right-0 md:right-[14px] w-8 md:w-[60px] object-contain"
+                >
+                  <img src="images/avatar-edit.png" alt="edit" />
+                </button>
+              </div>
+
+              <div
+                class="flex-1 flex flex-col gap-10 xl:flex-row items-start mt-5 md:mt-10 xl:mt-32"
+              >
+                <div class="flex-1">
+                  <div class="flex items-center gap-4">
+                    <h2 class="uppercase text-2xl md:text-[32px] leading-tight">
+                      Kristin Watson
+                    </h2>
+
+                    <button
+                      class="w-[38px] h-[24px] md:w-[80px] md:h-[44px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                    >
+                      <img
+                        class="w-[17px] md:w-[26px] object-contain"
+                        src="images/wave.svg"
+                        alt="wave"
+                      />
+                    </button>
+                  </div>
+
+                  <ul class="flex items-center gap-2 mt-3">
+                    <li>
+                      <button
+                        class="w-fit h-[29px] flex items-center justify-center gap-[3px] px-[5px] bg-custom-purple-500/15 rounded-md border border-custom-purple-500/40"
+                      >
+                        <img
+                          class="w-[16px] object-contain"
+                          src="images/gender-icon.svg"
+                          alt="gender"
+                        />
+
+                        <p class="text-base font-rubik text-custom-purple-500">
+                          23
+                        </p>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        class="w-fit h-[29px] flex items-center justify-center gap-[3px] px-[9px] bg-custom-purple-500/15 rounded-md border border-custom-purple-500/40"
+                      >
+                        <img
+                          class="w-[31px] object-contain"
+                          src="images/flag-us.svg"
+                          alt="Flag"
+                        />
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        class="w-fit h-[29px] flex items-center justify-center gap-[3px] px-[5px] bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                      >
+                        <p
+                          class="text-xs leading-4 font-semibold text-custom-purple-500"
+                        >
+                          English
+                        </p>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        class="w-fit h-[29px] flex items-center justify-center gap-[3px] px-[5px] bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                      >
+                        <p
+                          class="text-xs leading-4 font-semibold text-custom-purple-500"
+                        >
+                          French
+                        </p>
+                      </button>
+                    </li>
+                  </ul>
+
+                  <div class="mt-3 flex items-center gap-4">
+                    <div
+                      class="w-fit rounded-[10px] flex items-center gap-[6px] py-[3px] px-[14px] bg-custom-purple-500/15 border border-custom-white/20"
+                    >
+                      <div class="flex items-center gap-[2px]">
+                        <img
+                          class="w-[18px] object-contain"
+                          src="images/star.svg"
+                          alt="star"
+                        />
+                        <p
+                          class="gradient-text-yellow text-sm leading-[22px] font-bold"
+                        >
+                          5.0
+                        </p>
+                      </div>
+
+                      <p class="text-sm leading-[22px] font-bold">
+                        (120 reviews)
+                      </p>
+                    </div>
+
+                    <div
+                      class="glass-bg flex items-center gap-[6px] py-[1.2px] px-[5px] w-fit rounded-full"
+                    >
+                      <span class="bg-custom-green w-2 h-2 rounded-full"></span>
+                      <p
+                        class="text-[15px] leading-normal font-normal text-custom-green"
+                      >
+                        Online
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="bg-custom-black-mute rounded-[20px] w-full max-w-[416px] min-h-[124px] p-5 mt-6"
+                  >
+                    <div class="flex flex-col gap-4">
+                      <p>
+                        Add a short description to introduce yourself and your
+                        services!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-4 w-full md:w-auto">
+                  <button
+                    class="custom-btn custom-btn--fit custom-btn--shadow w-full md:w-auto"
+                  >
+                    SUBSCRIBE
+                    <img
+                      class="w-[24px] h-auto object-contain"
+                      src="images/button-heart.svg"
+                      alt="Heart"
+                    />
+                  </button>
+
+                  <button
+                    class="custom-btn custom-btn--white custom-btn--fit custom-btn--shadow-purple w-full md:w-auto"
+                  >
+                    CHAT
+                    <img
+                      class="w-[24px] h-auto object-contain"
+                      src="images/button-chat.svg"
+                      alt="Heart"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-20 md:mt-[142px] xl:pr-10 w-full md:w-auto">
+              <div
+                class="flex justify-end gap-[18px] flex-col md:flex-row w-full md:w-auto"
+              >
+                <button
+                  class="custom-btn custom-btn--white custom-btn--fit custom-btn--shadow-purple w-full md:w-auto"
+                >
+                  ADD SERVICES +
+                </button>
+
+                <button
+                  class="custom-btn custom-btn--fit custom-btn--shadow w-full md:w-auto"
+                >
+                  PLAY NOW
+                  <img
+                    class="w-[10px] h-auto"
+                    src="images/button-arrow-right.svg"
+                    alt="arrow"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Profile -->
+      </section>
+      <!-- Profle Area -->
+    </main>
+    <!-- Main Content -->
+  </body>
+
+  <!-- Custom JS File -->
+  <script src="js/main.js"></script>
+</html>
