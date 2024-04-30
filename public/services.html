@@ -20,11 +20,13 @@
     <!-- Main Content -->
     <main>
       <!-- Profle Area -->
-      <section class="min-h-[490px] bg-custom-purple/70"></section>
+      <section
+        class="min-h-[300px] md:min-h-[490px] bg-custom-purple/70"
+      ></section>
       <!-- Profle Area -->
 
       <!-- Tab Area -->
-      <section class="pt-[63px] pb-[100px]">
+      <section class="pt-[63px] pb-[60px] md:pb-[100px]">
         <div class="wrapper">
           <ul class="flex">
             <li class="flex-1 flex justify-center">
@@ -47,14 +49,20 @@
           </ul>
 
           <!-- Tab Content -->
-          <div class="pt-14">
-            <div class="flex items-start gap-8">
+          <div class="pt-10 md:pt-14">
+            <div class="flex flex-col xl:flex-row xl:items-start gap-8">
               <!-- Left Area -->
-              <div class="w-full max-w-[379px]">
+              <div
+                class="w-full xl:max-w-[379px] flex flex-col md:flex-row xl:flex-col gap-[22px]"
+              >
                 <div
-                  class="bg-custom-black-800 pt-[22px] px-[19px] pb-[42px] rounded-xl drop__shadow border border-custom-purple-900"
+                  class="bg-custom-black-800 pt-[22px] px-[19px] pb-[42px] rounded-xl drop__shadow border border-custom-purple-900 flex-1 xl:flex-none"
                 >
-                  <h2 class="text-[32px] leading-10 uppercase">Bio</h2>
+                  <h2
+                    class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                  >
+                    Bio
+                  </h2>
 
                   <p class="text-lg leading-normal mt-[23px]">
                     Hi nice to meet you~~ <br />
@@ -130,9 +138,13 @@
                 </div>
 
                 <div
-                  class="bg-custom-black-800 pt-[22px] px-[19px] pb-[36px] rounded-xl drop__shadow border border-custom-purple-900 mt-[22px]"
+                  class="bg-custom-black-800 pt-[22px] px-[19px] pb-[36px] rounded-xl drop__shadow border border-custom-purple-900 flex-1 xl:flex-none"
                 >
-                  <h2 class="text-[32px] leading-10 uppercase">Gallery</h2>
+                  <h2
+                    class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                  >
+                    Gallery
+                  </h2>
 
                   <div class="mt-[34px]">
                     <div class="w-full h-[280px]">
@@ -148,7 +160,7 @@
                     >
                       <li>
                         <button
-                          class="w-[74px] h-[74px] rounded-[10px] border border-custom-purple-500"
+                          class="w-[65px] h-[65px] md:w-[74px] md:h-[74px] rounded-[10px] border border-custom-purple-500"
                         >
                           <img
                             class="rounded-[10px]"
@@ -159,19 +171,7 @@
                       </li>
                       <li>
                         <button
-                          class="w-[74px] h-[74px] opacity-60 rounded-[10px]"
-                        >
-                          <img
-                            class="rounded-[10px]"
-                            src="images/slide-main.png"
-                            alt="Slide Nav"
-                          />
-                        </button>
-                      </li>
-
-                      <li>
-                        <button
-                          class="w-[74px] h-[74px] opacity-60 rounded-[10px]"
+                          class="w-[65px] h-[65px] md:w-[74px] md:h-[74px] opacity-60 rounded-[10px]"
                         >
                           <img
                             class="rounded-[10px]"
@@ -183,7 +183,19 @@
 
                       <li>
                         <button
-                          class="w-[74px] h-[74px] opacity-60 rounded-[10px]"
+                          class="w-[65px] h-[65px] md:w-[74px] md:h-[74px] opacity-60 rounded-[10px]"
+                        >
+                          <img
+                            class="rounded-[10px]"
+                            src="images/slide-main.png"
+                            alt="Slide Nav"
+                          />
+                        </button>
+                      </li>
+
+                      <li>
+                        <button
+                          class="w-[65px] h-[65px] md:w-[74px] md:h-[74px] opacity-60 rounded-[10px]"
                         >
                           <img
                             class="rounded-[10px]"
@@ -206,12 +218,16 @@
                 >
                   <div class="">
                     <div class="flex items-center gap-[10px]">
-                      <h2 class="text-[32px] leading-10 uppercase">
+                      <h2
+                        class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                      >
                         Games & Activities
                       </h2>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-[17px] mt-5">
+                    <div
+                      class="grid grid-cols-1 md:grid-cols-2 gap-[17px] mt-5"
+                    >
                       <!-- Single Item -->
                       <div
                         class="bg-custom-black-500 p-[10px] pr-[14px] border border-custom-purple-500 rounded-[20px] flex items-center gap-[14px]"
@@ -225,7 +241,7 @@
                         <div class="flex-1">
                           <div class="flex justify-between">
                             <h3
-                              class="text-lg font-bold leading-normal font-manrope text-custom-purple-500"
+                              class="text-lg font-bold leading-normal font-manrope text-custom-purple-500 flex-1"
                             >
                               League of Legends
                             </h3>
@@ -352,7 +368,9 @@
 
                   <div class="">
                     <div class="flex items-center gap-[10px]">
-                      <h2 class="text-[32px] leading-10 uppercase">
+                      <h2
+                        class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                      >
                         Service Type
                       </h2>
 
@@ -367,7 +385,9 @@
                       </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-x-[17px] gap-y-5 mt-5">
+                    <div
+                      class="grid grid-cols-1 md:grid-cols-2 gap-x-[17px] gap-y-5 mt-5"
+                    >
                       <!-- Single Item -->
                       <div
                         class="bg-custom-black-500 py-3 px-5 border border-custom-purple-500 rounded-[20px]"
@@ -514,15 +534,19 @@
 
                   <div class="">
                     <div class="flex items-center gap-[10px]">
-                      <h2 class="text-[32px] leading-10 uppercase">Play</h2>
+                      <h2
+                        class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                      >
+                        Play
+                      </h2>
                     </div>
 
                     <div
                       class="p-5 pb-[23px] bg-custom-black-mute-100 rounded-[20px] mt-5"
                     >
-                      <div class="flex gap-8">
+                      <div class="flex flex-col md:flex-row gap-8">
                         <div
-                          class="w-full max-w-[330px] bg-custom-black-mute border border-custom-purple-500 rounded-xl p-4 pr-[46px] pb-[26px] flex gap-5"
+                          class="w-full max-w-[330px] bg-custom-black-mute border border-custom-purple-500 rounded-xl p-4 md:pr-[46px] pb-[26px] flex flex-col md:flex-row gap-2 md:gap-5"
                         >
                           <img
                             class="w-[70px] h-[70px] rounded-xl"
@@ -540,7 +564,7 @@
                             <div
                               class="flex items-center gap-5 py-1 px-[14px] bg-custom-black-600/50 rounded-[10px] mt-[10px]"
                             >
-                              <div class="">
+                              <div class="flex-1">
                                 <p class="text-sm font-bold">Quickplay</p>
 
                                 <div
@@ -607,8 +631,12 @@
 
                 <!-- Right Single Card -->
                 <div class="custom-card-bg--choose p-6 pb-[30px]">
-                  <div class="flex items-center justify-between">
-                    <h2 class="text-[32px] leading-10 uppercase">
+                  <div
+                    class="flex flex-col md:flex-row gap-5 md:gap-0 md:items-center md:justify-between"
+                  >
+                    <h2
+                      class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                    >
                       League of Legends
                     </h2>
 
@@ -635,10 +663,10 @@
                       </div>
 
                       <button
-                        class="w-[38px] h-[24px] md:w-[80px] md:h-[44px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                        class="w-[80px] h-[44px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
                       >
                         <img
-                          class="w-[17px] md:w-[26px] object-contain"
+                          class="w-[26px] h-auto object-contain"
                           src="images/wave.svg"
                           alt="wave"
                         />
@@ -646,7 +674,9 @@
                     </div>
                   </div>
 
-                  <div class="flex items-center gap-6 mt-6">
+                  <div
+                    class="flex flex-col md:flex-row md:items-center gap-6 mt-6"
+                  >
                     <img
                       class="w-full max-w-[338px] h-[194px] object-cover rounded-xl"
                       src="images/league.png"
@@ -718,8 +748,12 @@
 
                 <!-- Right Single Card -->
                 <div class="custom-card-bg--choose p-6 pb-[30px]">
-                  <div class="flex items-center gap-4">
-                    <h2 class="text-[32px] leading-10 uppercase">Reviews</h2>
+                  <div class="flex flex-col md:flex-row md:items-center gap-4">
+                    <h2
+                      class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+                    >
+                      Reviews
+                    </h2>
 
                     <div
                       class="w-fit rounded-[10px] flex items-center gap-[6px] py-[3px] px-[14px] bg-custom-purple-500/15 border border-custom-white/20"
@@ -744,11 +778,11 @@
                   </div>
 
                   <div
-                    class="grid grid-cols-2 gap-x-[22px] gap-y-[25px] mt-[35px]"
+                    class="grid grid-cols-1 md:grid-cols-2 gap-x-[22px] gap-y-[25px] mt-[35px]"
                   >
                     <!-- Single Review -->
                     <div
-                      class="flex items-center justify-between py-[8.5px] px-4 pr-[38px] bg-custom-black-500 rounded-xl"
+                      class="flex items-center justify-between py-[8.5px] px-4 md:pr-[38px] bg-custom-black-500 rounded-xl"
                     >
                       <p class="text-sm font-bold leading-normal">
                         Reply Speed
@@ -766,7 +800,7 @@
 
                     <!-- Single Review -->
                     <div
-                      class="flex items-center justify-between py-[8.5px] px-4 pr-[38px] bg-custom-black-500 rounded-xl"
+                      class="flex items-center justify-between py-[8.5px] px-4 md:pr-[38px] bg-custom-black-500 rounded-xl"
                     >
                       <p class="text-sm font-bold leading-normal">
                         Friendliness
@@ -784,7 +818,7 @@
 
                     <!-- Single Review -->
                     <div
-                      class="flex items-center justify-between py-[8.5px] px-4 pr-[38px] bg-custom-black-500 rounded-xl"
+                      class="flex items-center justify-between py-[8.5px] px-4 md:pr-[38px] bg-custom-black-500 rounded-xl"
                     >
                       <p class="text-sm font-bold leading-normal">
                         Performance
@@ -802,7 +836,7 @@
 
                     <!-- Single Review -->
                     <div
-                      class="flex items-center justify-between py-[8.5px] px-4 pr-[38px] bg-custom-black-500 rounded-xl"
+                      class="flex items-center justify-between py-[8.5px] px-4 md:pr-[38px] bg-custom-black-500 rounded-xl"
                     >
                       <p class="text-sm font-bold leading-normal">Fun</p>
 
@@ -820,9 +854,11 @@
                   <div class="mt-8 space-y-4">
                     <!-- Single Item -->
                     <div
-                      class="border border-custom-black-500 rounded-xl p-5 flex items-start justify-between"
+                      class="border border-custom-black-500 rounded-xl p-5 flex flex-col gap-3 md:gap-0 md:flex-row md:items-start md:justify-between"
                     >
-                      <div class="flex items-start gap-4 w-full max-w-[536px]">
+                      <div
+                        class="flex flex-col md:flex-row md:items-start gap-3 md:gap-4 w-full max-w-[536px]"
+                      >
                         <img
                           class="w-12 h-auto object-contain"
                           src="images/user.png"
@@ -842,7 +878,9 @@
                             </button>
                           </div>
 
-                          <div class="mt-[7px] flex items-center gap-[10px]">
+                          <div
+                            class="mt-[7px] flex flex-col md:flex-row md:items-center gap-[10px]"
+                          >
                             <div class="flex items-center gap-[6px]">
                               <div class="flex items-center gap-[2px]">
                                 <img
@@ -894,7 +932,7 @@
                       </div>
 
                       <p
-                        class="text-sm leading-normal font-medium text-custom-white/50"
+                        class="text-sm text-right md:text-left leading-normal font-medium text-custom-white/50"
                       >
                         1 month ago
                       </p>
@@ -903,9 +941,11 @@
 
                     <!-- Single Item -->
                     <div
-                      class="border border-custom-black-500 rounded-xl p-5 flex items-start justify-between"
+                      class="border border-custom-black-500 rounded-xl p-5 flex flex-col gap-3 md:gap-0 md:flex-row md:items-start md:justify-between"
                     >
-                      <div class="flex items-start gap-4 w-full max-w-[536px]">
+                      <div
+                        class="flex flex-col md:flex-row md:items-start gap-3 md:gap-4 w-full max-w-[536px]"
+                      >
                         <img
                           class="w-12 h-auto object-contain"
                           src="images/user.png"
@@ -925,7 +965,9 @@
                             </button>
                           </div>
 
-                          <div class="mt-[7px] flex items-center gap-[10px]">
+                          <div
+                            class="mt-[7px] flex flex-col md:flex-row md:items-center gap-[10px]"
+                          >
                             <div class="flex items-center gap-[6px]">
                               <div class="flex items-center gap-[2px]">
                                 <img
@@ -977,7 +1019,7 @@
                       </div>
 
                       <p
-                        class="text-sm leading-normal font-medium text-custom-white/50"
+                        class="text-sm text-right md:text-left leading-normal font-medium text-custom-white/50"
                       >
                         1 month ago
                       </p>
@@ -986,9 +1028,11 @@
 
                     <!-- Single Item -->
                     <div
-                      class="border border-custom-black-500 rounded-xl p-5 flex items-start justify-between"
+                      class="border border-custom-black-500 rounded-xl p-5 flex flex-col gap-3 md:gap-0 md:flex-row md:items-start md:justify-between"
                     >
-                      <div class="flex items-start gap-4 w-full max-w-[536px]">
+                      <div
+                        class="flex flex-col md:flex-row md:items-start gap-3 md:gap-4 w-full max-w-[536px]"
+                      >
                         <img
                           class="w-12 h-auto object-contain"
                           src="images/user.png"
@@ -1008,7 +1052,9 @@
                             </button>
                           </div>
 
-                          <div class="mt-[7px] flex items-center gap-[10px]">
+                          <div
+                            class="mt-[7px] flex flex-col md:flex-row md:items-center gap-[10px]"
+                          >
                             <div class="flex items-center gap-[6px]">
                               <div class="flex items-center gap-[2px]">
                                 <img
@@ -1060,7 +1106,7 @@
                       </div>
 
                       <p
-                        class="text-sm leading-normal font-medium text-custom-white/50"
+                        class="text-sm text-right md:text-left leading-normal font-medium text-custom-white/50"
                       >
                         1 month ago
                       </p>
@@ -1083,8 +1129,908 @@
         </div>
       </section>
       <!-- Tab Area -->
+
+      <!-- Interests Section -->
+      <section class="pb-10 md:pb-[60px]">
+        <div class="max-w-[1200px] w-full mx-auto px-5 md:px-12 xl:px-0">
+          <h2
+            class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase"
+          >
+            Other League of Legends Buddies
+          </h2>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 mt-8 md:mt-[50px]"
+          >
+            <!-- Single Item -->
+            <div class="custom-card-bg--choose p-[15px] pb-5">
+              <!-- Image -->
+              <div class="w-full aspect-[2/1.55] relative">
+                <div class="gradient-overlay-image relative w-full h-full">
+                  <img src="images/profile-1.png" alt="profile image" />
+                </div>
+
+                <div
+                  class="glass-bg flex items-center gap-1 py-[1.2px] px-[5px] absolute top-[14px] left-[14px] w-fit rounded-full"
+                >
+                  <span class="bg-custom-green w-2 h-2 rounded-full"></span>
+                  <p
+                    class="text-[10px] leading-normal font-normal text-custom-green"
+                  >
+                    Online
+                  </p>
+                </div>
+
+                <ul
+                  class="flex items-center gap-[6px] absolute top-[14px] right-[14px]"
+                >
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+                </ul>
+
+                <div
+                  class="glass-bg absolute bottom-[10px] right-[10px] w-fit rounded-full flex items-center gap-[6px] py-[2px] px-[6px] border border-custom-black-dark"
+                >
+                  <div class="flex items-center gap-[2px]">
+                    <img
+                      class="w-[18px] object-contain"
+                      src="images/star.svg"
+                      alt="star"
+                    />
+                    <p
+                      class="gradient-text-yellow text-sm leading-[22px] font-bold"
+                    >
+                      5.0
+                    </p>
+                  </div>
+
+                  <p class="text-sm leading-[22px] font-bold">(120 reviews)</p>
+                </div>
+              </div>
+              <!-- Image -->
+
+              <!-- Content -->
+              <div class="pt-5">
+                <div class="flex items-center justify-between">
+                  <h2 class="text-xl leading-tight uppercase">Jane Cooper</h2>
+
+                  <button
+                    class="w-[38px] h-[24px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px]"
+                  >
+                    <img
+                      class="w-[17px] object-contain"
+                      src="images/wave.svg"
+                      alt="wave"
+                    />
+                  </button>
+                </div>
+
+                <ul class="flex items-center gap-[6px] flex-wrap mt-[10px]">
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      VR Chat
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      League of Legends
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="bg-transparent py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white border border-custom-white"
+                    >
+                      + More
+                    </button>
+                  </li>
+                </ul>
+
+                <p
+                  class="text-sm leading-normal text-custom-purple-200 max-w-[161px] mt-[10px]"
+                >
+                  Let’s go into our perfect world together
+                </p>
+
+                <div
+                  class="flex items-center gap-[6px] py-[2px] px-[6px] rounded-[10px] mt-[10px] bg-custom-purple-mute/10 w-fit"
+                >
+                  <img
+                    class="w-[14px] object-contain"
+                    src="images/language.svg"
+                    alt="language"
+                  />
+
+                  <div class="flex items-center gap-[6px]">
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      English
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Hindi
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Dutch
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-[10px]">
+                  <img
+                    class="w-6 h-6"
+                    src="images/thunder-logo.svg"
+                    alt="thunder"
+                  />
+
+                  <h3 class="ml-2 text-custom-purple-500 text-xl leading-none">
+                    5.00<span
+                      class="font-manrope text-sm font-normal text-custom-white/70"
+                      >/Game</span
+                    >
+                  </h3>
+
+                  <div
+                    class="ml-[5px] py-[2px] px-[6px] rounded-[10px] bg-custom-black-900 w-fit"
+                  >
+                    <p
+                      class="font-manrope text-sm font-normal text-custom-white"
+                    >
+                      25% Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Single Item -->
+
+            <!-- Single Item -->
+            <div class="custom-card-bg--choose p-[15px] pb-5">
+              <!-- Image -->
+              <div class="w-full aspect-[2/1.55] relative">
+                <div class="gradient-overlay-image relative w-full h-full">
+                  <img src="images/profile-2.png" alt="profile image" />
+                </div>
+
+                <div
+                  class="glass-bg flex items-center gap-1 py-[1.2px] px-[5px] absolute top-[14px] left-[14px] w-fit rounded-full"
+                >
+                  <span class="bg-custom-green w-2 h-2 rounded-full"></span>
+                  <p
+                    class="text-[10px] leading-normal font-normal text-custom-green"
+                  >
+                    Online
+                  </p>
+                </div>
+
+                <ul
+                  class="flex items-center gap-[6px] absolute top-[14px] right-[14px]"
+                >
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+                </ul>
+
+                <div
+                  class="glass-bg absolute bottom-[10px] right-[10px] w-fit rounded-full flex items-center gap-[6px] py-[2px] px-[6px] border border-custom-black-dark"
+                >
+                  <div class="flex items-center gap-[2px]">
+                    <img
+                      class="w-[18px] object-contain"
+                      src="images/star.svg"
+                      alt="star"
+                    />
+                    <p
+                      class="gradient-text-yellow text-sm leading-[22px] font-bold"
+                    >
+                      5.0
+                    </p>
+                  </div>
+
+                  <p class="text-sm leading-[22px] font-bold">(120 reviews)</p>
+                </div>
+              </div>
+              <!-- Image -->
+
+              <!-- Content -->
+              <div class="pt-5">
+                <div class="flex items-center justify-between">
+                  <h2 class="text-xl leading-tight uppercase">Jane Cooper</h2>
+
+                  <button
+                    class="w-[38px] h-[24px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px]"
+                  >
+                    <img
+                      class="w-[17px] object-contain"
+                      src="images/wave.svg"
+                      alt="wave"
+                    />
+                  </button>
+                </div>
+
+                <ul class="flex items-center gap-[6px] flex-wrap mt-[10px]">
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      VR Chat
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      League of Legends
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="bg-transparent py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white border border-custom-white"
+                    >
+                      + More
+                    </button>
+                  </li>
+                </ul>
+
+                <p
+                  class="text-sm leading-normal text-custom-purple-200 max-w-[161px] mt-[10px]"
+                >
+                  Let’s go into our perfect world together
+                </p>
+
+                <div
+                  class="flex items-center gap-[6px] py-[2px] px-[6px] rounded-[10px] mt-[10px] bg-custom-purple-mute/10 w-fit"
+                >
+                  <img
+                    class="w-[14px] object-contain"
+                    src="images/language.svg"
+                    alt="language"
+                  />
+
+                  <div class="flex items-center gap-[6px]">
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      English
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Hindi
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Dutch
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-[10px]">
+                  <img
+                    class="w-6 h-6"
+                    src="images/thunder-logo.svg"
+                    alt="thunder"
+                  />
+
+                  <h3 class="ml-2 text-custom-purple-500 text-xl leading-none">
+                    5.00<span
+                      class="font-manrope text-sm font-normal text-custom-white/70"
+                      >/Game</span
+                    >
+                  </h3>
+
+                  <div
+                    class="ml-[5px] py-[2px] px-[6px] rounded-[10px] bg-custom-black-900 w-fit"
+                  >
+                    <p
+                      class="font-manrope text-sm font-normal text-custom-white"
+                    >
+                      25% Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Single Item -->
+
+            <!-- Single Item -->
+            <div class="custom-card-bg--choose p-[15px] pb-5">
+              <!-- Image -->
+              <div class="w-full aspect-[2/1.55] relative">
+                <div class="gradient-overlay-image relative w-full h-full">
+                  <img src="images/profile-3.png" alt="profile image" />
+                </div>
+
+                <div
+                  class="glass-bg flex items-center gap-1 py-[1.2px] px-[5px] absolute top-[14px] left-[14px] w-fit rounded-full"
+                >
+                  <span class="bg-custom-green w-2 h-2 rounded-full"></span>
+                  <p
+                    class="text-[10px] leading-normal font-normal text-custom-green"
+                  >
+                    Online
+                  </p>
+                </div>
+
+                <ul
+                  class="flex items-center gap-[6px] absolute top-[14px] right-[14px]"
+                >
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+                </ul>
+
+                <div
+                  class="glass-bg absolute bottom-[10px] right-[10px] w-fit rounded-full flex items-center gap-[6px] py-[2px] px-[6px] border border-custom-black-dark"
+                >
+                  <div class="flex items-center gap-[2px]">
+                    <img
+                      class="w-[18px] object-contain"
+                      src="images/star.svg"
+                      alt="star"
+                    />
+                    <p
+                      class="gradient-text-yellow text-sm leading-[22px] font-bold"
+                    >
+                      5.0
+                    </p>
+                  </div>
+
+                  <p class="text-sm leading-[22px] font-bold">(120 reviews)</p>
+                </div>
+              </div>
+              <!-- Image -->
+
+              <!-- Content -->
+              <div class="pt-5">
+                <div class="flex items-center justify-between">
+                  <h2 class="text-xl leading-tight uppercase">Jane Cooper</h2>
+
+                  <button
+                    class="w-[38px] h-[24px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px]"
+                  >
+                    <img
+                      class="w-[17px] object-contain"
+                      src="images/wave.svg"
+                      alt="wave"
+                    />
+                  </button>
+                </div>
+
+                <ul class="flex items-center gap-[6px] flex-wrap mt-[10px]">
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      VR Chat
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      League of Legends
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="bg-transparent py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white border border-custom-white"
+                    >
+                      + More
+                    </button>
+                  </li>
+                </ul>
+
+                <p
+                  class="text-sm leading-normal text-custom-purple-200 max-w-[161px] mt-[10px]"
+                >
+                  Let’s go into our perfect world together
+                </p>
+
+                <div
+                  class="flex items-center gap-[6px] py-[2px] px-[6px] rounded-[10px] mt-[10px] bg-custom-purple-mute/10 w-fit"
+                >
+                  <img
+                    class="w-[14px] object-contain"
+                    src="images/language.svg"
+                    alt="language"
+                  />
+
+                  <div class="flex items-center gap-[6px]">
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      English
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Hindi
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Dutch
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-[10px]">
+                  <img
+                    class="w-6 h-6"
+                    src="images/thunder-logo.svg"
+                    alt="thunder"
+                  />
+
+                  <h3 class="ml-2 text-custom-purple-500 text-xl leading-none">
+                    5.00<span
+                      class="font-manrope text-sm font-normal text-custom-white/70"
+                      >/Game</span
+                    >
+                  </h3>
+
+                  <div
+                    class="ml-[5px] py-[2px] px-[6px] rounded-[10px] bg-custom-black-900 w-fit"
+                  >
+                    <p
+                      class="font-manrope text-sm font-normal text-custom-white"
+                    >
+                      25% Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Single Item -->
+
+            <!-- Single Item -->
+            <div class="custom-card-bg--choose p-[15px] pb-5">
+              <!-- Image -->
+              <div class="w-full aspect-[2/1.55] relative">
+                <div class="gradient-overlay-image relative w-full h-full">
+                  <img src="images/profile-4.png" alt="profile image" />
+                </div>
+
+                <div
+                  class="glass-bg flex items-center gap-1 py-[1.2px] px-[5px] absolute top-[14px] left-[14px] w-fit rounded-full"
+                >
+                  <span class="bg-custom-green w-2 h-2 rounded-full"></span>
+                  <p
+                    class="text-[10px] leading-normal font-normal text-custom-green"
+                  >
+                    Online
+                  </p>
+                </div>
+
+                <ul
+                  class="flex items-center gap-[6px] absolute top-[14px] right-[14px]"
+                >
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="w-[10px] h-[10px] rounded-full bg-custom-white/30"
+                    ></button>
+                  </li>
+                </ul>
+
+                <div
+                  class="glass-bg absolute bottom-[10px] right-[10px] w-fit rounded-full flex items-center gap-[6px] py-[2px] px-[6px] border border-custom-black-dark"
+                >
+                  <div class="flex items-center gap-[2px]">
+                    <img
+                      class="w-[18px] object-contain"
+                      src="images/star.svg"
+                      alt="star"
+                    />
+                    <p
+                      class="gradient-text-yellow text-sm leading-[22px] font-bold"
+                    >
+                      5.0
+                    </p>
+                  </div>
+
+                  <p class="text-sm leading-[22px] font-bold">(120 reviews)</p>
+                </div>
+              </div>
+              <!-- Image -->
+
+              <!-- Content -->
+              <div class="pt-5">
+                <div class="flex items-center justify-between">
+                  <h2 class="text-xl leading-tight uppercase">Jane Cooper</h2>
+
+                  <button
+                    class="w-[38px] h-[24px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px]"
+                  >
+                    <img
+                      class="w-[17px] object-contain"
+                      src="images/wave.svg"
+                      alt="wave"
+                    />
+                  </button>
+                </div>
+
+                <ul class="flex items-center gap-[6px] flex-wrap mt-[10px]">
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      VR Chat
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="tag-gradient py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white"
+                    >
+                      League of Legends
+                    </button>
+                  </li>
+
+                  <li>
+                    <button
+                      class="bg-transparent py-1 px-2 rounded-[10px] text-[10px] leading-none font-rubik text-custom-white border border-custom-white"
+                    >
+                      + More
+                    </button>
+                  </li>
+                </ul>
+
+                <p
+                  class="text-sm leading-normal text-custom-purple-200 max-w-[161px] mt-[10px]"
+                >
+                  Let’s go into our perfect world together
+                </p>
+
+                <div
+                  class="flex items-center gap-[6px] py-[2px] px-[6px] rounded-[10px] mt-[10px] bg-custom-purple-mute/10 w-fit"
+                >
+                  <img
+                    class="w-[14px] object-contain"
+                    src="images/language.svg"
+                    alt="language"
+                  />
+
+                  <div class="flex items-center gap-[6px]">
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      English
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Hindi
+                    </p>
+                    <p
+                      class="text-custom-purple-mute text-xs leading-[18px] font-semibold uppercase"
+                    >
+                      Dutch
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-center mt-[10px]">
+                  <img
+                    class="w-6 h-6"
+                    src="images/thunder-logo.svg"
+                    alt="thunder"
+                  />
+
+                  <h3 class="ml-2 text-custom-purple-500 text-xl leading-none">
+                    5.00<span
+                      class="font-manrope text-sm font-normal text-custom-white/70"
+                      >/Game</span
+                    >
+                  </h3>
+
+                  <div
+                    class="ml-[5px] py-[2px] px-[6px] rounded-[10px] bg-custom-black-900 w-fit"
+                  >
+                    <p
+                      class="font-manrope text-sm font-normal text-custom-white"
+                    >
+                      25% Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Single Item -->
+          </div>
+        </div>
+      </section>
+      <!-- Interests Section -->
     </main>
     <!-- Main Content -->
+
+    <!-- Footer Area -->
+    <footer class="pt-[60px] pb-[45px] footer--bg">
+      <div class="wrapper">
+        <div
+          class="flex flex-col xl:flex-row gap-12 xl:gap-0 xl:justify-between pb-[70px] xl:pb-[110px]"
+        >
+          <!-- Logo Area -->
+          <div class="w-full max-w-[276px] space-y-6">
+            <a href="#" class="w-fit h-14 md:w-[201px] md:h-20">
+              <img
+                class="object-contain"
+                src="images/hero-logo.svg"
+                alt="Logo"
+              />
+            </a>
+
+            <p class="text-lg md:text-xl leading-normal">
+              Play Games, Meet People Have Fun!
+            </p>
+
+            <ul class="flex items-center gap-4">
+              <li>
+                <a
+                  href="#"
+                  class="w-10 h-10 flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                >
+                  <img
+                    class="w-[21px] object-contain"
+                    src="images/facebook.svg"
+                    alt="facebook"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="w-10 h-10 flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                >
+                  <img
+                    class="w-[21px] object-contain"
+                    src="images/instagram.svg"
+                    alt="instagram"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="w-10 h-10 flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                >
+                  <img
+                    class="w-[21px] object-contain"
+                    src="images/twitter.svg"
+                    alt="twitter"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#"
+                  class="w-10 h-10 flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
+                >
+                  <img
+                    class="w-[21px] object-contain"
+                    src="images/discord.svg"
+                    alt="discord"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Logo Area -->
+
+          <div class="flex flex-col xl:flex-row gap-12 xl:gap-[90px]">
+            <!-- Single Footer Nav -->
+            <div class="">
+              <h2
+                class="font-manrope text-2xl leading-normal font-semibold text-custom-purple-500"
+              >
+                Get Started
+              </h2>
+
+              <ul class="flex flex-col gap-4 mt-5">
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Homepage</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Find Your Player 02</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Join Yumi</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Single Footer Nav -->
+
+            <!-- Single Footer Nav -->
+            <div class="">
+              <h2
+                class="font-manrope text-2xl leading-normal font-semibold text-custom-purple-500"
+              >
+                Company
+              </h2>
+
+              <ul class="flex flex-col gap-4 mt-5">
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Contact</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Referral Program</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-lg leading-normal font-normal font-manrope hover:underline"
+                    >Terms Of Service</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Single Footer Nav -->
+
+            <!-- Single Footer Nav -->
+            <div class="">
+              <h2
+                class="font-manrope text-2xl leading-normal font-semibold text-custom-purple-500"
+              >
+                Get The Yumi App
+              </h2>
+
+              <div class="space-y-6 mt-5">
+                <button
+                  class="flex items-center justify-center gap-[14px] w-[240px] h-[72px] py-3 px-3 bg-custom-black-500 rounded-[20px] border border-custom-purple-800"
+                >
+                  <img
+                    class="w-10 h-auto object-contain"
+                    src="images/google-play.svg"
+                    alt=""
+                  />
+
+                  <div class="text-left">
+                    <p class="text-xs leading-normal">Get it on</p>
+                    <p class="text-xl leading-normal font-semibold">
+                      Google Play
+                    </p>
+                  </div>
+                </button>
+
+                <button
+                  class="flex items-center justify-center gap-[14px] w-[240px] h-[72px] py-3 px-3 bg-custom-black-500 rounded-[20px] border border-custom-purple-800"
+                >
+                  <img
+                    class="w-10 h-auto object-contain"
+                    src="images/apple.svg"
+                    alt=""
+                  />
+
+                  <div class="text-left">
+                    <p class="text-xs leading-normal">Download on the</p>
+                    <p class="text-xl leading-normal font-semibold">
+                      Apple Store
+                    </p>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <!-- Single Footer Nav -->
+          </div>
+        </div>
+
+        <div class="border-t border-custom-purple-200/20 pt-6">
+          <p class="text-base leading-[24px] text-custom-white/60 text-center">
+            © 2023 Yumi Labs LTD, All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Area -->
   </body>
 
   <!-- Custom JS File -->

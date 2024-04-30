@@ -27,6 +27,7 @@ module.exports = {
         "custom-purple": "#DE3DFF",
         "custom-purple-hover": "#c400eb",
         "custom-purple-900": "#CF47EB",
+        "custom-purple-800": "#CF8AE7",
         "custom-purple-500": "#BF86F9",
         "custom-purple-200": "#CEC3D5",
         "custom-green": "#90FB6A",
