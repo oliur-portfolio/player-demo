@@ -158,6 +158,10 @@
   object-fit: contain;
 }
 
+.social-icon--sm svg {
+  width: 21px !important;
+}
+
 .social-icon {
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
@@ -173,6 +177,15 @@
 
 .social-icon:hover {
   background: #2f2636;
+}
+
+.social-icon--sm svg,
+.social-icon--sm svg path {
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 .hero-gradient-overlay {
