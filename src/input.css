@@ -81,7 +81,7 @@
   }
 
   .custom-btn {
-    @apply text-lg leading-none font-rubik font-normal text-custom-white flex items-center justify-center gap-[10px] w-full h-[52px] bg-custom-purple rounded-[100px] border-2 border-custom-black uppercase transition-all duration-150 ease-in-out hover:bg-custom-purple-hover;
+    @apply text-lg leading-none font-rubik font-normal text-custom-white flex items-center justify-center gap-[10px] w-full h-[52px] bg-custom-purple rounded-[100px] border-2 border-custom-black uppercase;
   }
 
   .custom-btn-outline {
@@ -115,10 +115,15 @@
   .custom__tab-btn--active {
     @apply text-custom-purple-500 border-custom-purple-500;
   }
+
+  .custom-btn--layer {
+    @apply bg-custom-white;
+  }
 }
 
 /* Custom Code */
 .gradient-text {
+  width: fit-content;
   display: block;
   background: #cf47eb;
   background: linear-gradient(
