@@ -799,6 +799,33 @@ label {
   left: 0px;
 }
 
+.custom-btn--white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(222 61 255 / var(--tw-text-opacity));
+}
+
+.custom-btn--layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 52px;
+  width: 100%;
+  border-radius: 100px;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(26 21 30 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.custom-btn--layer-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(222 61 255 / var(--tw-bg-opacity));
+}
+
 .custom-btn-outline {
   display: flex;
   height: 52px;
@@ -837,19 +864,6 @@ label {
   padding-bottom: 14px;
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.custom-btn--white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(222 61 255 / var(--tw-text-opacity));
-}
-
-.custom-btn--white:hover {
-  background-color: rgb(255 255 255 / 0.9);
-  --tw-text-opacity: 1;
-  color: rgb(222 61 255 / var(--tw-text-opacity));
 }
 
 .input-style--select {
@@ -918,21 +932,6 @@ label {
   border-color: rgb(191 134 249 / var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgb(191 134 249 / var(--tw-text-opacity));
-}
-
-.custom-btn--layer {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  height: 52px;
-  width: 100%;
-  border-radius: 100px;
-  border-width: 2px;
-  --tw-border-opacity: 1;
-  border-color: rgb(26 21 30 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .game__slider-btn {

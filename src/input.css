@@ -84,16 +84,24 @@
     @apply transition-all duration-300 ease-in-out text-lg leading-none font-rubik font-normal text-custom-white flex items-center justify-center gap-[10px] w-full h-[52px] bg-custom-purple rounded-[100px] border-2 border-custom-black uppercase py-[14px] px-8 relative -top-[7px] -left-[5px] group-hover:top-0 group-hover:left-0;
   }
 
+  .custom-btn--white {
+    @apply bg-custom-white text-custom-purple;
+  }
+
+  .custom-btn--layer {
+    @apply bg-custom-white w-full h-[52px] rounded-[100px] absolute top-0 left-0 -z-[1] border-2 border-custom-black;
+  }
+
+  .custom-btn--layer-white {
+    @apply bg-custom-purple;
+  }
+
   .custom-btn-outline {
     @apply text-lg font-rubik leading-snug text-custom-white-500 border-2 border-custom-black-mute py-[12px] px-[35px] h-[52px] flex items-center justify-center rounded-full transition-all duration-150 hover:bg-custom-purple hover:text-custom-white hover:border-transparent;
   }
 
   .custom-btn--fit {
     @apply w-fit py-[14px] px-8;
-  }
-
-  .custom-btn--white {
-    @apply bg-custom-white text-custom-purple hover:bg-custom-white/90 hover:text-custom-purple;
   }
 
   .input-style--select {
@@ -114,10 +122,6 @@
 
   .custom__tab-btn--active {
     @apply text-custom-purple-500 border-custom-purple-500;
-  }
-
-  .custom-btn--layer {
-    @apply bg-custom-white w-full h-[52px] rounded-[100px] absolute top-0 left-0 -z-[1] border-2 border-custom-black;
   }
 
   .game__slider-btn {
