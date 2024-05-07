@@ -24,6 +24,7 @@ module.exports = {
         "custom-black-300": "#2C2433",
         "custom-black-200": "rgba(20, 15, 46, 0.2)",
         "custom-black-mute": "#392E42",
+        "custom-black-mute-300": "#3E3248",
         "custom-black-mute-100": "#2C2433",
         "custom-white": "#fff",
         "custom-white-500": "rgba(255, 255, 255, 0.5)",
