@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Player | Add Service page</title>
+    <title>Player | Add Service 2 No preview page</title>
 
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -44,6 +44,12 @@
                   class="coaching--hero-bg coaching--hero-bg--service aspect-video md:aspect-[5/2] lg:aspect-[5/1.46] flex flex-col justify-start py-5 md:justify-end mt-5 md:py-[65px] px-5 md:px-[34px] relative"
                 >
                   <div class="">
+                    <h1
+                      class="coach__hero-shadow-text text-[30px] md:text-[60px] xl:text-[80px] leading-none -tracking-tight max-w-[460px] w-full"
+                    >
+                      League of Legends
+                    </h1>
+
                     <button
                       class="default-btn mt-10 py-[8px] h-10 md:h-[52px] md:py-[14px] px-4 md:px-8 text-sm md:text-lg leading-none font-rubik text-custom-purple-500/80 bg-custom-purple-500/20 uppercase min-w-[180px] md:min-w-[239px] border-2 border-custom-purple-500 rounded-[100px] absolute right-5 bottom-5 md:right-[23px] md:bottom-[30px] hover:bg-custom-purple-500 hover:text-custom-white"
                     >
@@ -55,13 +61,13 @@
                 <!-- Tab Buttons -->
                 <ul class="flex mt-7">
                   <li class="flex-1 flex justify-center">
-                    <button class="custom__tab-btn custom__tab-btn--active">
-                      DESCRIPTION
-                    </button>
+                    <button class="custom__tab-btn">DESCRIPTION</button>
                   </li>
 
                   <li class="flex-1 flex justify-center">
-                    <button class="custom__tab-btn">PRICING</button>
+                    <button class="custom__tab-btn custom__tab-btn--active">
+                      PRICING
+                    </button>
                   </li>
 
                   <li class="flex-1 flex justify-center">
@@ -75,18 +81,11 @@
                   <div class="flex flex-col gap-10 pb-[60px]">
                     <!-- Single Input / Select -->
                     <label>
-                      <h3 class="text-xl leading-tight">Platform</h3>
-
-                      <p
-                        class="text-sm leading-5 text-custom-purple-200/70 mt-2"
-                      >
-                        Choose the platforms on which you intend to play the
-                        game
-                      </p>
+                      <h3 class="text-xl leading-tight">Service Type</h3>
 
                       <div class="relative mt-2">
                         <select class="input-style input-style--select">
-                          <option>PC</option>
+                          <option>Just Fun</option>
                           <option>PS4</option>
                           <option>XBOX</option>
                           <option>Switch</option>
@@ -107,346 +106,171 @@
 
                     <!-- Single Input / Select -->
                     <label>
-                      <h3 class="text-xl leading-tight">Region</h3>
+                      <h3 class="text-xl leading-tight">Game Mode</h3>
 
                       <p
                         class="text-sm leading-5 text-custom-purple-200/70 mt-2"
                       >
-                        Indicate the regions where you would like to play the
-                        game
+                        Enter game mode name
                       </p>
 
-                      <div class="relative mt-2">
-                        <select class="input-style input-style--select">
-                          <option>Select Region</option>
-                          <option>PS4</option>
-                          <option>XBOX</option>
-                          <option>Switch</option>
-                        </select>
-
-                        <div
-                          class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
-                        >
-                          <img
-                            class="object-contain"
-                            src="images/select-arrow.svg"
-                            alt="arrow"
-                          />
-                        </div>
-                      </div>
+                      <input
+                        type="text"
+                        name="gameModeName"
+                        id="gameModeName"
+                        placeholder="Game mode name"
+                        class="input-style mt-2"
+                      />
                     </label>
                     <!-- Single Input / Select -->
 
-                    <!-- Single Input / Select -->
-                    <label>
-                      <h3 class="text-xl leading-tight">Rank</h3>
-
-                      <p
-                        class="text-sm leading-5 text-custom-purple-200/70 mt-2"
-                      >
-                        Select your in-game rank
-                      </p>
-
-                      <div class="relative mt-2">
-                        <select class="input-style input-style--select">
-                          <option>Select Ranks</option>
-                          <option>PS4</option>
-                          <option>XBOX</option>
-                          <option>Switch</option>
-                        </select>
-
-                        <div
-                          class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
-                        >
-                          <img
-                            class="object-contain"
-                            src="images/select-arrow.svg"
-                            alt="arrow"
-                          />
-                        </div>
-                      </div>
-                    </label>
-                    <!-- Single Input / Select -->
-
-                    <!-- Single Input / Select -->
-                    <label>
-                      <h3 class="text-xl leading-tight">Game Bio</h3>
-
-                      <p
-                        class="text-sm leading-5 text-custom-purple-200/70 mt-2"
-                      >
-                        Write a brief description of your game experience or
-                        style
-                      </p>
-
-                      <textarea
-                        name="game-bio"
-                        id="game-bio"
-                        class="input-style mt-2 resize-none min-h-[220px]"
-                        placeholder="Write your game bio"
-                      ></textarea>
-                    </label>
-                    <!-- Single Input / Select -->
-                  </div>
-
-                  <div class="py-[60px] border-y border-custom-black-mute-300">
-                    <div class="max-w-[505px] w-full">
-                      <h2 class="flex items-center gap-2 text-xl leading-tight">
-                        <span class="w-[18px] h-auto"
-                          ><img
-                            class="object-contain"
-                            src="images/mike.svg"
-                            alt="mike"
-                        /></span>
-                        Voiceline
-                      </h2>
-
-                      <p
-                        class="text-sm leading-5 text-custom-purple-200/70 mt-2"
-                      >
-                        Record or upload a brief 3-15 second voiceline
-                        describing you game experience
-                      </p>
-
-                      <div class="flex flex-col md:flex-row gap-4 mt-7">
-                        <!-- Updated Button -->
-                        <div class="relative group w-full md:w-fit">
-                          <div class="custom-btn--layer"></div>
-                          <a href="#" class="custom-btn">
-                            Record
-                            <img
-                              class="w-[18px] h-auto object-contain"
-                              src="images/mike.svg"
-                              alt="mike"
-                            />
-                          </a>
-                        </div>
-                        <!-- Updated Button -->
-
-                        <!-- Updated Button -->
-                        <div class="relative group w-full md:w-fit">
-                          <div
-                            class="custom-btn--layer custom-btn--layer-white"
-                          ></div>
-                          <a href="#" class="custom-btn custom-btn--white">
-                            Upload Audio
-                            <img
-                              class="w-[18px] h-auto object-contain"
-                              src="images/upload.svg"
-                              alt="upload"
-                            />
-                          </a>
-                        </div>
-                        <!-- Updated Button -->
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="py-[60px] border-b border-custom-black-mute-300">
-                    <div class="">
-                      <h2 class="flex items-center gap-2 text-xl leading-tight">
-                        <span class="w-[18px] h-auto"
-                          ><img
-                            class="object-contain"
-                            src="images/cover.svg"
-                            alt="cover"
-                        /></span>
-                        Game Profile Cover
-                      </h2>
-
-                      <p
-                        class="text-sm leading-5 text-custom-purple-200/70 mt-2"
-                      >
-                        Show off your Game skills through a YouTube video,
-                        Twitch clip , or TikTok
-                      </p>
-
-                      <div
-                        class="flex flex-col xl:flex-row xl:items-end gap-[14px] mt-3"
-                      >
-                        <input
-                          type="email"
-                          class="input-style flex-1"
-                          placeholder="Enter a Youtube video, Twitch clip or TikTok URL"
-                        />
+                    <div class="flex flex-col md:flex-row md:items-end gap-6">
+                      <!-- Single Input / Select -->
+                      <label class="flex-1">
+                        <h3 class="text-xl leading-tight">Price</h3>
 
                         <p
-                          class="text-xl leading-[30px] font-medium text-custom-purple-200/60 mb-4 text-center xl:text-left"
+                          class="text-sm leading-5 text-custom-purple-200/70 mt-2"
                         >
-                          or
+                          Enter game mode price
                         </p>
 
-                        <!-- Updated Button -->
-                        <div
-                          class="relative group w-full md:w-fit md:mx-auto xl:ml-0 xl:mr-0"
-                        >
-                          <div
-                            class="custom-btn--layer custom-btn--layer-white"
-                          ></div>
-                          <a href="#" class="custom-btn custom-btn--white">
-                            Upload Image
-                            <img
-                              class="w-[18px] h-auto object-contain"
-                              src="images/upload.svg"
-                              alt="upload"
-                            />
-                          </a>
+                        <div class="relative mt-2">
+                          <input
+                            type="text"
+                            name="gameModePrice"
+                            id="gameModePrice"
+                            placeholder="Game mode price"
+                            class="input-style pl-[50px]"
+                            value="5.00"
+                          />
+
+                          <img
+                            class="w-5 h-5 absolute top-1/2 -translate-y-1/2 left-6"
+                            src="images/thunder-logo.svg"
+                            alt="thunder"
+                          />
                         </div>
-                        <!-- Updated Button -->
+                      </label>
+                      <!-- Single Input / Select -->
+
+                      <!-- Single Input / Select -->
+                      <div class="relative w-full md:max-w-[246px]">
+                        <select class="input-style input-style--select">
+                          <option>/Game</option>
+                          <option>PS4</option>
+                          <option>XBOX</option>
+                          <option>Switch</option>
+                        </select>
+
+                        <div
+                          class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
+                        >
+                          <img
+                            class="object-contain"
+                            src="images/select-arrow.svg"
+                            alt="arrow"
+                          />
+                        </div>
+                      </div>
+                      <!-- Single Input / Select -->
+                    </div>
+                  </div>
+
+                  <div
+                    class="pt-10 pb-[60px] border-y border-custom-black-mute-300"
+                  >
+                    <!-- Switch Box -->
+                    <label class="flex items-center gap-4 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        value=""
+                        class="sr-only peer"
+                        checked
+                      />
+                      <div
+                        class="relative w-[64px] h-6 bg-custom-black-mute border border-custom-white rounded-full peer-checked:after:translate-x-10 rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-custom-white after:border after:rounded-full after:h-[18px] after:w-[18px] after:transition-all peer-checked:bg-custom-purple"
+                      ></div>
+                      <span class="text-xl leading-tight font-rubik capitalize"
+                        >Enable Promotion</span
+                      >
+                    </label>
+                    <!-- Switch Box -->
+
+                    <div class="relative mt-6">
+                      <select class="input-style input-style--select">
+                        <option>1st Order Free</option>
+                        <option>PS4</option>
+                        <option>XBOX</option>
+                        <option>Switch</option>
+                      </select>
+
+                      <div
+                        class="absolute top-1/2 -translate-y-1/2 right-5 w-[14px]"
+                      >
+                        <img
+                          class="object-contain"
+                          src="images/select-arrow.svg"
+                          alt="arrow"
+                        />
                       </div>
                     </div>
+
+                    <input
+                      type="text"
+                      name="gameModeName"
+                      id="gameModeName"
+                      class="input-style mt-6"
+                      value="1"
+                    />
+                  </div>
+
+                  <div class="py-10 border-b border-custom-black-mute-300">
+                    <!-- Updated Button -->
+                    <div
+                      class="relative group w-full md:w-fit md:mx-auto xl:ml-0 xl:mr-0"
+                    >
+                      <div
+                        class="custom-btn--layer custom-btn--layer-white"
+                      ></div>
+                      <a href="#" class="custom-btn custom-btn--white">
+                        add game mode +
+                      </a>
+                    </div>
+                    <!-- Updated Button -->
                   </div>
 
                   <div class="pt-[60px]">
                     <div
-                      class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-0"
+                      class="flex flex-col md:flex-row md:items-center md:justify-center gap-4 md:gap-0"
                     >
-                      <h2
-                        class="flex items-center gap-[14px] text-[32px] leading-normal"
-                      >
-                        <span class="w-[33px] h-auto"
-                          ><img
-                            class="object-contain"
-                            src="images/preview.svg"
-                            alt="preview"
-                        /></span>
-                        Preview
-                      </h2>
-
                       <div
-                        class="relative group w-full md:w-fit xl:w-full xl:max-w-[416px]"
+                        class="flex-1 flex items-center justify-center gap-5"
                       >
-                        <div class="custom-btn--layer"></div>
-                        <button type="submit" class="custom-btn">
-                          ContInue
+                        <button
+                          class="w-[52px] h-[52px] flex items-center justify-center gap-[10px] bg-custom-purple/10 border border-custom-purple rounded-full text-custom-purple-500"
+                        >
                           <img
-                            class="w-[10px] h-auto"
-                            src="images/button-arrow-right.svg"
-                            alt="arrow"
+                            class="w-[22px] h-auto object-contain"
+                            src="images/arrow-big-back-purple.svg"
+                            alt=""
                           />
                         </button>
-                      </div>
-                    </div>
 
-                    <div
-                      class="custom-card-bg--choose p-6 pb-[30px] mt-10 md:mt-20"
-                    >
-                      <div
-                        class="flex flex-col md:flex-row gap-5 md:gap-0 md:items-center md:justify-between"
-                      >
-                        <h2
-                          class="text-[24px] leading-8 md:text-[32px] md:leading-10 uppercase w-full max-w-[300px] xl:max-w-full flex-1"
+                        <div
+                          class="relative group flex-1 md:flex-none w-full md:w-fit xl:w-full xl:max-w-[416px]"
                         >
-                          League of Legends
-                        </h2>
-
-                        <div class="flex items-center gap-5">
-                          <div
-                            class="w-fit rounded-[10px] flex items-center gap-[6px] py-[3px] px-[14px] bg-custom-purple-500/15 border border-custom-white/20"
-                          >
-                            <div class="flex items-center gap-[2px]">
-                              <img
-                                class="w-[18px] object-contain"
-                                src="images/star.svg"
-                                alt="star"
-                              />
-                              <p
-                                class="gradient-text-yellow text-base leading-[26px] font-bold"
-                              >
-                                5.0
-                              </p>
-                            </div>
-
-                            <p class="text-base leading-[26px] font-bold">
-                              (120 reviews)
-                            </p>
-                          </div>
-
-                          <button
-                            class="w-[80px] h-[44px] flex items-center justify-center bg-custom-purple-500/15 rounded-[10px] border border-custom-purple-500/40"
-                          >
+                          <div class="custom-btn--layer"></div>
+                          <button type="submit" class="custom-btn">
+                            ContInue
                             <img
-                              class="w-[26px] h-auto object-contain"
-                              src="images/wave.svg"
-                              alt="wave"
+                              class="w-[10px] h-auto"
+                              src="images/button-arrow-right.svg"
+                              alt="arrow"
                             />
                           </button>
                         </div>
                       </div>
-
-                      <div
-                        class="flex flex-col md:flex-row md:items-start gap-6 mt-6"
-                      >
-                        <img
-                          class="w-full max-w-[338px] h-[194px] object-cover rounded-xl"
-                          src="images/league.png"
-                          alt=""
-                        />
-
-                        <div class="flex-1">
-                          <p
-                            class="text-sm leading-normal text-custom-purple-200"
-                          >
-                            I've been playing LoL for 2 years, I'm currently
-                            Platinum IV on my main account in LAN server, I also
-                            have LAS, NA, EUW accounts ♡ ⭑˚. I don't usually get
-                            tilted, I enjoy every match no matter if they are
-                            good or bad ones, since I'm supportive and funny (˵
-                            •̀ ᴗ - ˵ ). I can chill or tryhard as you decide! ‧ ₊
-                            ʚ🎀ɞ ๋࣭ ⭑ PD: This service doesn't include Discord
-                            call/chat, check Adding socials for that! +voice
-                            orders will be done with League voice chat.
-                          </p>
-                        </div>
-                      </div>
-
-                      <ul
-                        class="mt-8 flex items-center gap-x-[7px] gap-y-3 flex-wrap"
-                      >
-                        <li>
-                          <button
-                            class="text-sm leading-normal font-manrope font-normal text-custom-purple-200 py-1 px-[10px] rounded-[40px] bg-custom-black-500 flex items-center gap-[10px]"
-                          >
-                            Rank:
-                            <span class="font-medium text-custom-white"
-                              >Diamond</span
-                            >
-                          </button>
-                        </li>
-
-                        <li>
-                          <button
-                            class="text-sm leading-normal font-manrope font-normal text-custom-purple-200 py-1 px-[10px] rounded-[40px] bg-custom-black-500 flex items-center gap-[10px]"
-                          >
-                            Platform:
-                            <span class="font-medium text-custom-white"
-                              >PC</span
-                            >
-                          </button>
-                        </li>
-
-                        <li>
-                          <button
-                            class="text-sm leading-normal font-manrope font-normal text-custom-purple-200 py-1 px-[10px] rounded-[40px] bg-custom-black-500 flex items-center gap-[10px]"
-                          >
-                            Server:
-                            <span class="font-medium text-custom-white"
-                              >Eu West/NA/EU North East</span
-                            >
-                          </button>
-                        </li>
-
-                        <li>
-                          <button
-                            class="text-sm leading-normal font-manrope font-normal text-custom-purple-200 py-1 px-[10px] rounded-[40px] bg-custom-black-500 flex items-center gap-[10px]"
-                          >
-                            Position:
-                            <span class="font-medium text-custom-white"
-                              >Support/Mid/Jungle</span
-                            >
-                          </button>
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
